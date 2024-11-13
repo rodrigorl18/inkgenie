@@ -14,7 +14,7 @@ MAX_SILENCE_BLOCKS = 30  # Número de bloques consecutivos de silencio antes de 
 
 audio = pyaudio.PyAudio()
 
-# Ruta al modelo de Vosk (asegúrate de que sea la correcta)
+# Ruta al modelo de Vosk
 MODEL_PATH = "vosk-model-small-es-0.42"
 model = Model(MODEL_PATH)
 
