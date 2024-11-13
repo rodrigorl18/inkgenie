@@ -1,0 +1,30 @@
+#:kivy 2.3.0
+
+<tablita>
+    
+    GridLayout:
+        cols: 1
+        size:root.width,root.height
+        GridLayout:
+            cols: 2
+            Label:
+                text: "Name"
+            TextInput:
+                multiline: True
+
+            Label:
+                text: "Favorite Game"
+            TextInput:
+                multiline: True
+
+            Label:
+                text: "Favorite Color"
+            TextInput:
+                multiline: True
+
+        Button:
+        
+            width: root.width
+            text: "Submit"
+                
+            
